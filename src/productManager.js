@@ -111,9 +111,7 @@ class ProductManager {
     }
 }
 
-module.exports = ProductManager;
-
-const book = new ProductManager();
+/* const book = new ProductManager();
 
 book.addProduct("Bajo la misma estrella", "Romance", 8999, "Sin imagen", "abc1", 25);
 book.addProduct("Harry Potter y la piedra filosofal", "Fantasía", 22000, "Sin imagen 2", "abc12", 30);
@@ -124,7 +122,7 @@ book.addProduct("Los devoradores de libros", "Suspenso", 1350, "Sin imagen 6", "
 book.addProduct("El príncipe", "Suspenso", 10000, "Sin imagen 7", "abc1234567", 10);
 book.addProduct("¿Quién mató a Alex?", "Misterio y Romance", 20000, "Sin Imagen 8", "abc12345678", 33);
 book.addProduct("Veronika decide morir", "Historias de vida", 11000, "Sin imagen 9", "abc123456789", 12);
-book.addProduct("La chica del tren", "Misterio", 22000, "Sin Imagen 10", "abc10", 50);
+book.addProduct("La chica del tren", "Misterio", 22000, "Sin Imagen 10", "abc10", 50); */
 
 /* book.getProducts();
 
@@ -135,3 +133,5 @@ book.updateProduct(1, "title", "María Sofía Caucota");
 
 book.deleteProduct(9);
 book.deleteProduct(3); */
+
+module.exports = ProductManager;

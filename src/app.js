@@ -36,11 +36,12 @@ app.get("/products/:pid", async (req, res) => {
         if(selectedBook) {
             res.send(selectedBook);
         }else {
-            res.send("Libro no encontrado")
+            res.send({ error: "Producto no encontrado" });
         }
 
     }catch (error) {
         console.log(error);
+        res.send("Error al obtener el libro requerido");
     }
 });
 
